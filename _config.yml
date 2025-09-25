@@ -25,7 +25,7 @@ author:
   # Biographic information
   avatar           : "profile.png"
   name             : "Me"
-  pronouns         : # example: "she/her"  
+  pronouns         : "she/her"  
   bio              : "Astronomer/Engineer"
   location         : "MA, USA"
   employer         : "University of Massachusetts"
@@ -63,7 +63,7 @@ author:
   keybase          : # Username
   instagram        : # Username
   lastfm           : # Username
-  linkedin         : "https://www.linkedin.com/in/sandrabustamantegonzalez/" # Username
+  linkedin         : "sandrabustamantegonzalez" # Username
   mastodon         : # URL
   medium           : # URL
   pinterest        : # Username

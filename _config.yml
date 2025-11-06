@@ -12,7 +12,7 @@ site_theme               : "default" # Currently available options are "default"
 title                    : "Astro Engineer"
 title_separator          : "-"
 name                     : &name "Sandra Bustamante Gonzalez"
-description              : &description "Your Name's academic portfolio"   # Update this with a general description of your site, this is the default if not overridden by a page
+description              : &description "Sandra Bustamante's portfolio"   # Update this with a general description of your site, this is the default if not overridden by a page
 url                      : https://bugchan.github.io # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -24,7 +24,7 @@ repository               : "bugchan/bugchan.github.io"
 author:
   # Biographic information
   avatar           : "profile.png"
-  name             : "Me"
+  name             : "Sandra Bustamante"
   pronouns         : "she/her"  
   bio              : "Astronomer/Engineer"
   location         : "MA, USA"
@@ -33,15 +33,15 @@ author:
   email            : "sbustamanteg@umass.edu" 
 
   # Academic websites
-  academia         : # URL
+  academia         : https://inaoep.academia.edu/sandybugon
   arxiv            : # URL - Update with the correct link to your profile
-  googlescholar    : "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
+  googlescholar    : "https://scholar.google.com/citations?user=vYZjxCEAAAAJ&hl=en"
   inspire-hep      : # URL
   impactstory      : # URL
   orcid            : "https://orcid.org/0000-0001-6169-1894"
   semantic         : # URL
   pubmed           : #""
-  researchgate     : # URL
+  researchgate     : https://www.researchgate.net/profile/Sandra-Bustamante-5
   scopus           : # URL
 
   # Repositories and software development
@@ -79,10 +79,10 @@ author:
   youtube          : # Username
   zhihu            : # Username
 
-# Publication Category - The following the list of publication categories and their headings
+# Publication Category - The following list of publication categories and their headings
 publication_category:
-  books:
-    title: 'Books'
+  # books:
+  #   title: 'Books'
   manuscripts:
     title: 'Journal Articles'    
   conferences:
@@ -224,9 +224,9 @@ collections:
   publications:
     output: true
     permalink: /:collection/:path/
-  portfolio:
-    output: true
-    permalink: /:collection/:path/
+  # portfolio:
+  #   output: true
+  #   permalink: /:collection/:path/
   talks:
     output: true
     permalink: /:collection/:path/
